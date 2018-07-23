@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "D:\xsd\log4j.dtd">
+<log4j:configuration>
+<appender name="FILE_APPENDER" class="org.apache.log4j.FileAppender">
+	<layout class="org.apache.log4j.PatternLayout">
+	<param name="pattern" value=""/>
+	</layout>
+</appender>
+<logger name="A">
+<param name="" value=""/>
+<appender-ref ref="FILE_APPENDER"/>
+</logger>
+<root>
+	<appender-ref ref="FILE_APPENDER" />
+</root>
+</log4j:configuration>
